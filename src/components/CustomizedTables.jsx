@@ -37,8 +37,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 const CustomTableContainer = styled(TableContainer)(({ theme }) => ({
   boxShadow: "none",
   border: "none",
-  width: "93vw",
-  margin: "auto",
+  width: "100%",
   padding: 0,
 }));
 
@@ -46,7 +45,7 @@ const CustomPaper = styled(Paper)(({ theme }) => ({
   margin: 0,
   padding: 0,
   width: "100vw",
-  height: "65vh",
+  height: "68vh",
 }));
 
 const QuestionCell = styled(StyledTableCell)(({ theme }) => ({
